@@ -1,0 +1,154 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+
+#main-div {
+    /* background-color: #f0f2f5; */
+    background-image: url("/images/main-bg.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+#logo {
+    color: #0866ff;
+    font-size: 58px;
+    padding: 23px 0;
+}
+
+.signup-form {
+    opacity: 0.8;
+    background-color: #fff;
+    width: 430px;
+    border-radius: 8px;
+    padding-bottom: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.form-heading {
+    text-align: center;
+    padding: 15px 0;
+    border-bottom: 1px solid #8d949e;
+}
+
+h2 {
+    padding-bottom: 5px;
+}
+
+p {
+    color: #8d949e;
+}
+
+.input-fields {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+input, select {
+    padding: 10px;
+    border: 1px solid #8d949e;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.half-width {
+    width: 48%;
+    display: flex;
+}
+
+.full-width {
+    display: flex;
+    width: 100%;
+}
+
+label {
+    font-size: 12px;
+    padding-bottom: 10px;
+}
+
+.dob-div {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.quat-width {
+    width: 31%;
+    display: flex;
+}
+
+.gender-sec {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.radio-btn {
+    border: 1px solid #8d949e;
+    border-radius: 5px;
+    width: 25.6%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.radio-label {
+    padding: 0%;
+    font-size: 15px;
+}
+
+.radio-input {
+    margin: 0%;
+    width: auto;
+    cursor: pointer;
+}
+
+small {
+    padding-top: 15px;
+    font-size: 11px;
+    color: #777;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.button-div {
+    padding-top: 25px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.signup-btn {
+    border: none;
+    background-color: #00a400;
+    color: #fff;
+    padding: 8px 60px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.account-div {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
